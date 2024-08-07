@@ -1,0 +1,62 @@
+
+.container{
+    width: 80%;
+    margin:auto;
+    align-items: center;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-box{
+    margin-top: 30px;
+}
+
+.main-box tr th{
+    color:#5a8a5c;;
+}
+
+.btn-buy-card{
+    background-color: 	#536f1b;
+    width: 80px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+   
+}
+
+@media (max-width: 750px)
+{
+    .container{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-buy-card{
+        width:85px;
+        padding: 13px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:390px){
+    .container{
+        width: 98%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .col-md-12{
+       width: 100%;
+       display: flex;
+        justify-content: center;
+       
+      
+      
+    }
+}

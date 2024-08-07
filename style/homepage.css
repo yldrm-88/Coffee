@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color:rgb(218, 225, 203);
+}
+
+/* Home Page CSS*/
+
+
+
+.black{
+    background:#222;
+    color: rgba(245, 245, 245, 0.481);
+    height: 45px;
+}
+.black p{
+    padding:13px;
+    margin-left: 130px;
+    font-weight: 200;
+}
+
+.icon{
+    background-color: whitesmoke;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px;
+    align-items: center;
+        
+ 
+}
+
+
+.icon i{
+    padding: 20px;
+    font-size: 40px;
+    
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+}
+.customer p{
+    font-weight: 200;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 85px;
+    align-items: center;
+}
+.logo h1{
+    align-items: center;
+    margin-top: 28px;
+    margin-left:9px;
+    padding: 10px;
+}
+
+
+
+.accountCard ul{
+    display: flex;
+    list-style: none;
+}
+.accountCard i{
+    color: black;
+}
+.menu-container{
+    position: relative;
+    display: inline-block;
+}
+.account{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    left: 0;
+}
+.dropdown-menu a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-menu a:hover{
+    color: white;
+    background-color: #536f1b;
+}
+
+.show{
+    display: block;
+}
+
+.account,.card{
+    margin: 0 20px;
+}
+
+.accountCard i:hover{
+    color: #536f1b;
+}
+
+.line{
+    border:2px solid black;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.menu{
+    background:	#536f1b;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.menu-left ul{
+    display: flex;
+   
+}
+
+.menu-left ul li{
+    list-style:none;
+    margin: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-left a:hover{
+    color: whitesmoke;
+}
+
+.search{
+    display: flex;
+}
+.search input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+.search i{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.search ::placeholder{
+    color: rgba(0, 0, 0, 0.491);
+    font-size: 16px;
+
+}
+
+.slider-menu{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+
+.slider-button{
+    position: absolute;
+    top:330px;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.slider-button i{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.slider-button i:hover{
+    color: black;
+}
+
+.boxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+
+.plane,.wallet,.gift,.phone{
+    display: flex;
+    flex-direction: column;
+    margin:0 70px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #536f1b;
+    width:250px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.plane i, .wallet i, .gift i, .phone i {
+    align-items: center;
+    margin-bottom:8px;
+  }
+  
+  .coffe{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 10px;
+    grid-column-gap:30px;
+    margin-top: 10px;
+  }
+
+.img1,.img2,.img3{
+    width: 300px;
+    height: 300px;
+    border-radius:150px;
+  }
+
+  .coffe p{
+    line-height: 1.6;
+    color: #536f1b;
+    font-size: large;
+    text-align: justify; /* bu arkadaş texti sağ soldan hizalıyor.*/
+  }
+
+.footer{
+   width: auto;
+   height: auto; 
+   background:#536f1b;
+   padding: 80px 150px 20px;
+   align-items: center;
+   color: rgba(245, 245, 245, 0.611);
+   line-height: 2.0;
+
+.footer2{
+    display: flex;
+}
+.contact{
+    margin-right:80px;
+}
+
+
+.social-icon{
+    margin-top: 8px;
+}
+
+.social-icon i{
+    color: rgba(245, 245, 245, 0.611);
+    margin-right: 8px;
+}
+
+.account-detail{
+    line-height: 2.0;
+    display: flex;
+    flex-direction: column;
+}
+.account-detail a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.611);
+}
+
+.line2{
+    margin-top:10px;
+    height: 2px;
+    
+}
+
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.account-detail a:hover{
+    color: black;
+}
+
+
+

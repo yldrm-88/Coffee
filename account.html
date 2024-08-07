@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/homepage/icon.png" type="image/x-icon" />
+    <title>Kayıt Ol</title>
+
+    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="style/register.css">
+   <link rel="stylesheet" href="style/detail.css">
+   <link rel="stylesheet" href="style/coffee-detail.css">
+   <link rel="stylesheet" href="style/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+        <div class="header">
+            <div class="black"><p>Online satış mağazamıza hoşgeldiniz!</p></div>
+            <div class="icon">
+                <div class="customer">
+                        <div>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>Müşteri Hizmetleri</p>
+                            <p style="margin-top: 3px;">0424 555 66</p>
+                        </div>
+                </div>
+                    <div class="logo">
+                            <img src="image/homepage/icon.png" alt=""> 
+                            <h1>DOĞA COFFEE</h1>
+                    </div>
+
+                    <div class="accountCard">
+                        <ul>
+                           <div class="menu-container">
+                            <button class="account"><i class="fas fa-user"></i></button>
+                            <div class="dropdown-menu">
+                                <a href="login.html">Oturum Aç</a>
+                                <a href="register.html">Kayıt Ol</a>
+                            </div>
+                            <div></div>
+                           </div>
+                            <div class="line"></div>
+
+                            <div class="cart-icon-container">
+                                <i class="fa-solid fa-cart-shopping fa-2x card" onclick="GetDetailPage()"></i>
+                                <span id="cart-count">0</span>
+                            </div>
+
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-left">
+                    <ul>
+                        <li><a href="homepage.html">ANASAYFA</a></li>
+                        <li><a href="coffee.html">KAHVE</a></li>
+                        <li><a href="comunucation.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-img">
+            <img src="image/register/barista.jpg" alt="">
+            <div class="register-about">
+                <h3>Hesabım</h3>
+                <div style="display: flex;">
+                    <li><a href="homepage.html"><i class="fa-solid fa-house"></i></a></i>
+                    </li>
+                    <li><a href="account.html">Hesabım</a></li>
+                </div>
+            </div>
+        </div>
+
+        <div class="account2">
+            <div class="account2-image">
+                <img src="image/profile.webp" alt="">
+            </div>
+            <div class="account2-about">
+                <div class="account2-item">
+                    <label>Adınız:</label>
+                    <p>Saliha</p>
+                </div>
+                <div class="account2-item">
+                    <label>Soyadınız:</label>
+                    <p>Yıldırım</p>
+                </div>
+                <hr>
+                <div class="account2-item">
+                    <label>Telefon:</label>
+                    <p>0555 555 55 55</p>
+                </div>
+                <div class="account2-item">
+                    <label>E Posta:</label>
+                    <p>sasa44@gmail.com</p>
+                </div>
+                <hr>
+                <button class="account2-btn" >Alışveriş Geçmişi</button>
+            </div>
+        </div>
+        
+            
+
+       
+
+           
+        <div class="footer">
+            <div class="footer2">
+                <div class="contact">
+                    <h3>İLETİŞİM BİLGİLERİ</h3>
+                    <p>Address:71 Pennington Lane Vernon Rockville, CT 06066</p>
+                    <p>Phone:+91 123 456 789</p>
+                    <p>Fax:0123-456-789</p>
+                    <p>Email:demo@Yourstore.com</p>
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                        <i class="fa-brands fa-youtube fa-2x"></i>
+                        <i class="fa-brands fa-google fa-2x"></i>
+                        <i class="fa-brands fa-pinterest fa-2x"></i>
+                    </div>
+                </div>
+                <div class="account-detail">
+                    <h3>HESABIM</h3>
+                    <a href="#">Hesabım</a>
+                    <a href="#">Siparişlerim</a>
+                    <a href="#">Alışveriş Listesi</a>
+                    <a href="#">Bülten Aboneliği</a>
+                    <a href="#">Ürün İadesi</a>
+                </div>
+            </div>
+            <hr class="line2">
+
+        <div class="footer3">
+            <div>
+                <p>Doğa Coffee © 2024 - Tüm Hakları Saklıdır.</p>
+            </div>
+            <div>
+                <img src="image/homepage/payment.png">
+            </div>
+        </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="homepage.js"></script>
+</body>
+</html>

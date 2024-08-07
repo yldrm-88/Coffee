@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/homepage/icon.png" type="image/x-icon" />
+    <title>Doğa Coffee</title>
+    <link rel="stylesheet" href="style/homepage.css">
+   <link rel="stylesheet" href="style/food.css">
+   <link rel="stylesheet" href="style/coffee-detail.css">
+   <link rel="stylesheet" href="style/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+            <div class="black"><p>Online satış mağazamıza hoşgeldiniz!</p></div>
+            <div class="icon">
+                <div class="customer">
+                        <div>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>Müşteri Hizmetleri</p>
+                            <p style="margin-top: 3px;">0424 555 66</p>
+                        </div>
+                </div>
+                    <div class="logo">
+                            <img src="image/homepage/icon.png" alt=""> 
+                            <h1>DOĞA COFFEE</h1>
+                    </div>
+
+                    <div class="accountCard">
+                        <ul>
+                           <div class="menu-container">
+                            <button class="account"><i class="fas fa-user"></i></button>
+                            <div class="dropdown-menu">
+                                <a href="login.html">Oturum Aç</a>
+                                <a href="register.html">Kayıt Ol</a>
+                            </div>
+                            <div></div>
+                           </div>
+                            <div class="line"></div>
+                            <div class="cart-icon-container">
+                                <i class="fa-solid fa-cart-shopping fa-2x card shopping-cart" style="border: none; background-color: whitesmoke;" onclick="GetDetailPage()"></i>
+                                <span id="cart-count">0</span>
+                            </div>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-left">
+                    <ul>
+                        <li><a href="homepage.html">ANASAYFA</a></li>
+                        <li><a href="coffee.html">KAHVE</a></li>
+                        <li><a href="comunucation.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                <div> <input type="search" placeholder="Ne aramıştınız?"></div>
+                <div> <i class="fas fa-search"></i></div>
+                </div>
+            </div>
+    </div>
+
+    <div class="slider-menu">
+        <div class="slider">
+            <img class="slider-image" src="image/homepage/slider1.jpg" width="100%" alt="picture1">
+        </div>
+        <div class="slider-button">
+            <i class="fas fa-arrow-left fa-2xl" onclick="back()"></i>
+            <i class="fas fa-arrow-right fa-2xl" onclick="next()"></i>
+        </div>
+    </div>
+    
+    <div class="boxes">
+        <div class="plane">
+            <i class="fa-solid fa-plane"></i>
+           <p>DÜNYA ÇAPINDA KARGO</p>
+           <p>150₺ ve üzeri</p>
+        </div>
+
+        <div class="wallet">
+            <i class="fa-solid fa-wallet"></i>
+            <p>KAPIDA ÖDEME</p>
+            <p>100% para garantisi</p>
+        </div>
+
+        <div class="gift">
+            <i class="fa-solid fa-gift"></i>
+            <p>HEDİYE KARTLAR</p>
+            <p>Hediye ile birlikte fırsatlar</p>
+        </div>
+
+        <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>24/7 MÜŞTERİ SERVİSİ</p>
+            <p>Bizi arayın 0424 555 66</p>
+        </div>
+    </div>
+ 
+        <div data-aos="fade-right" class="coffe">
+            <img src="image/homepage/image1.jpg" class="img1">
+            <p><i class="fa-solid fa-quote-left"></i> Rivayete göre, bir gün bir keçi çobanı, keçilerinin bir bitkinin meyvelerini yedikten sonra enerji patlaması yaşadığını fark etmiş. Keçiler bir oraya bir buraya zıplayıp durmuşlar, adeta dans ediyorlarmış. Çoban, "Nedir bu keçilerin hali böyle?" diye düşünüp, aynı meyveleri kendisi de denemeye karar vermiş. Aynı etkiyi kendisinde de hissedince, şaşkınlıktan küçük dilini yutacak gibi olmuş. <i class="fa-solid fa-quote-right"></i></p>
+        </div>
+
+        <div data-aos="fade-left" class="coffe">
+            <p><i class="fa-solid fa-quote-left"></i>  Çoban, bu durumu bölgesindeki din adamına anlatmış. Din adamı da bu meçhul meyveleri birkaç kez denedikten sonra, "Bu işte bir bit yeniği var!" diyerek meyveleri incelemiş. Denemeler sonucunda, bugünkü kahve içeceğinin temelleri atılmış. Böylece, keçi çobanının ve dans eden keçilerinin sayesinde, dünyanın en sevilen içeceklerinden biri olan kahve keşfedilmiş! Meğer sabahları bizi uyandıran kahve, enerjik keçilerin ve meraklı çobanlarının eseriymiş! <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <img  src="image/homepage/kahveTarih.jpg" class="img2">
+        </div>
+
+        <div data-aos="fade-right" class="coffe">
+            <img src="image/homepage/kahve-ticareti.webp" class="img3">
+           <div>
+             <p> <i class="fa-solid fa-quote-left"></i> Kahvenin ilk olarak kim tarafından keşfedildiği rivayetlerle dolu olsa da, günümüzde bu popüler içeceğin faydaları saymakla bitmez. Siz de bu eşsiz nimeti keşfedin ve kahvenin sunduğu lezzet ve enerjiyi deneyimleyin. <i class="fa-solid fa-quote-right"></i></p>
+           </div>
+        </div>
+
+      
+      
+
+
+ 
+
+    <div class="footer">
+        <div class="footer2">
+            <div class="contact">
+                <h3>İLETİŞİM BİLGİLERİ</h3>
+                <p>Address:71 Pennington Lane Vernon Rockville, CT 06066</p>
+                <p>Phone:+91 123 456 789</p>
+                <p>Fax:0123-456-789</p>
+                <p>Email:demo@Yourstore.com</p>
+                <div class="social-icon">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                    <i class="fa-brands fa-google fa-2x"></i>
+                    <i class="fa-brands fa-pinterest fa-2x"></i>
+                </div>
+            </div>
+            <div class="account-detail">
+                <h3>HESABIM</h3>
+                <a href="#">Hesabım</a>
+                <a href="#">Siparişlerim</a>
+                <a href="#">Alışveriş Listesi</a>
+                <a href="#">Bülten Aboneliği</a>
+                <a href="#">Ürün İadesi</a>
+            </div>
+        </div>
+        <hr class="line2">
+
+       <div class="footer3">
+        <div>
+            <p>Doğa Coffee © 2024 - Tüm Hakları Saklıdır.</p>
+        </div>
+        <div>
+            <img src="image/homepage/payment.png">
+        </div>
+       </div>
+    </div>
+    
+    <script src="homepage.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

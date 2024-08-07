@@ -1,0 +1,195 @@
+.communication{
+    width: 75%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.comunication-col1{
+    top: 0;
+    font-size: 15px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #536f1b;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.comunication-col1 h1{
+    font-weight: bold;
+    margin-bottom:20px;
+    color: #536f1b;
+}
+.comunication-col1 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.comunication-col2{
+    padding: 40px;
+}
+.comunication-col2 div{
+    margin-bottom: 10px;
+    align-items: center;
+}
+.comunication-col2 label{
+    color: #536f1b;
+    margin-right: 20px;
+    display: inline-block;
+    width: 170px; 
+    margin-bottom: 20px;
+
+}
+
+.comunication-col2 input{
+    padding: 10px 200px 10px 10px;
+    border: 1px solid #536f1b;
+    border-radius: 10px;
+   
+}
+
+.comunication-col2 textarea{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+   
+}
+
+.connection-btn{
+    background-color:#536f1b; ;
+    padding: 10px 20px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    float: right;
+    border-radius: 10px;
+}
+
+.connection-btn:hover{
+    scale: 1.05;
+}
+
+
+@media (min-width:1025px) and (max-width:1280px){
+    .communication{
+        width: 80%;
+    }
+    .comunication-col1{
+        font-size: 12px;
+        padding: 15px;  
+        width: 40%;   
+        margin-right: 30px;
+    }
+    .comunication-col2{
+        width: 60%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }    
+    .comunication-col2 textarea{
+        width: 350px;
+        height: 220px;
+    }
+    .connection-btn{
+        margin-top: 10px;
+        align-self: flex-end;
+    }
+}
+
+@media (min-width:700px) and (max-width:1024px){
+    .communication{
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .comunication-col1{ 
+        max-width: 100%;
+        height: 100%; 
+        margin-right: 30px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .comunication-col2{
+        width: 60%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }  
+    .comunication-col1 h1{
+        margin-bottom:10px;
+    }
+    .comunication-col2 textarea{
+        width: 350px;
+        height: 250px;
+    }
+    .connection-btn{
+        margin-top: 10px;
+        align-self: flex-end;
+    }
+    
+}
+
+@media (max-width:699px){
+
+    .communication{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comunication-col1{ 
+        max-width: 80%;
+        height: 100%; 
+        padding: 10px;
+        margin-bottom: 20px;
+      
+    }
+    .comunication-col1 h1{
+        font-size: 20px;
+    }
+    .comunication-col1 p{
+        font-size: 12px;
+    }
+    .comunication-col2 {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .comunication-col2 div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comunication-col2 textarea{
+        width: 100%;
+        height: 250px;
+    }
+    .comunication-col2 label{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .comunication-col2 input{
+        width: 100%;
+        padding: 10px;      
+    }
+    .connection-btn{
+        margin-top: 10px;
+        align-self: flex-end;
+    }
+ 
+    
+}

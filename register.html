@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/homepage/icon.png" type="image/x-icon" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="style/register.css">
+   <link rel="stylesheet" href="style/detail.css">
+   <link rel="stylesheet" href="style/coffee-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+        <div class="header">
+            <div class="black"><p>Online satış mağazamıza hoşgeldiniz!</p></div>
+            <div class="icon">
+                <div class="customer">
+                        <div>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>Müşteri Hizmetleri</p>
+                            <p style="margin-top: 3px;">0424 555 66</p>
+                        </div>
+                </div>
+                    <div class="logo">
+                            <img src="image/homepage/icon.png" alt=""> 
+                            <h1>DOĞA COFFEE</h1>
+                    </div>
+
+                    <div class="accountCard">
+                        <ul>
+                           <div class="menu-container">
+                            <button class="account"><i class="fas fa-user"></i></button>
+                            <div class="dropdown-menu">
+                                <a href="login.html">Oturum Aç</a>
+                                <a href="register.html">Kayıt Ol</a>
+                            </div>
+                            <div></div>
+                           </div>
+                            <div class="line"></div>
+
+                            <div class="cart-icon-container">
+                                <i class="fa-solid fa-cart-shopping fa-2x card" onclick="GetDetailPage()"></i>
+                                <span id="cart-count">0</span>
+                            </div>
+
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-left">
+                    <ul>
+                        <li><a href="homepage.html">ANASAYFA</a></li>
+                        <li><a href="coffee.html">KAHVE</a></li>
+                        <li><a href="comunucation.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                <div> <input type="search" placeholder="Ne aramıştınız?"></div>
+                <div> <i class="fas fa-search"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-img">
+            <img src="image/register/barista.jpg" alt="">
+            <div class="register-about">
+                <h3>Hesap Oluştur</h3>
+                <div style="display: flex;">
+                    <li><a href="homepage.html"><i class="fa-solid fa-house"></i></a></i>
+                    </li>
+                    <li><a href="#">Hesabım</a></li>
+                    <li><a href="login.html">Giriş Yap</a></li>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-col">
+
+            <div class="box-list-left">
+                <div class="h2"><p>HESABIM</p></div>
+                <div class="inner"><li><a href="#">Oturum Aç</a></li>
+                <li><a href="#">Kayıt Ol</a></li>
+                <li><a href="#">Parolamı Unuttum</a></li>
+                <li><a href="#">Hesabım</a></li>
+                <li><a href="#">Adres Defterlerim</a></li>
+                <li><a href="#">Alışveriş Listem</a></li>
+                <li><a href="#">Siparişlerim</a></li>
+                <li><a href="#">Dosyalarım</a></li>
+                <li><a href="#">Otomatik Ödemeler</a></li>
+                <li><a href="#">Puanlarım</a></li>
+                <li><a href="#">İade Taleplerim</a></li>
+                <li><a href="#">Bakiye İşlemlerim</a></li>
+                <li><a href="#">Bülten Aboneliği</a></li></div>
+            </div>
+
+
+            <div class="box-list-right">
+                <div class="inner2">
+                    <p >Eğer daha önce kayıt olduysanız, lütfen oturum açma sayfasına gidiniz.</p>
+                </div>
+
+                <div class="user-information">
+                    <p>Üyelik Bilgileri</p>
+                    <hr/>
+                    <div>
+                    <label>*Adınız</label>
+                    <input type="text" placeholder="Adınız">
+                    </div>
+                    <div>
+                    <label>*Soyadınız</label>
+                    <input type="text" placeholder="Soyadınız">
+                    </div>
+                    <div>
+                    <label>*E-Posta</label>
+                    <input type="email"placeholder="E-Posta">
+                    </div>
+                    <div>
+                    <label>*Telefon</label>
+                    <input type="text"placeholder="Telefon">
+                    </div> 
+                </div>
+
+
+                <div class="user-information">
+                    <p>Parolanız</p>
+                    <hr/>
+                    <div>
+                    <label>*Parola</label>
+                    <input type="password" placeholder="Parola">
+                    </div>
+                    <div>
+                    <label>*Parola(Tekrar)</label>
+                    <input type="password" placeholder="Parola(Tekrar)">
+                    </div>
+                </div>
+                <button class="register-button">DEVAM</button>
+                </div>
+            </div>
+        </div>
+           
+        <div class="footer">
+            <div class="footer2">
+                <div class="contact">
+                    <h3>İLETİŞİM BİLGİLERİ</h3>
+                    <p>Address:71 Pennington Lane Vernon Rockville, CT 06066</p>
+                    <p>Phone:+91 123 456 789</p>
+                    <p>Fax:0123-456-789</p>
+                    <p>Email:demo@Yourstore.com</p>
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                        <i class="fa-brands fa-youtube fa-2x"></i>
+                        <i class="fa-brands fa-google fa-2x"></i>
+                        <i class="fa-brands fa-pinterest fa-2x"></i>
+                    </div>
+                </div>
+                <div class="account-detail">
+                    <h3>HESABIM</h3>
+                    <a href="#">Hesabım</a>
+                    <a href="#">Siparişlerim</a>
+                    <a href="#">Alışveriş Listesi</a>
+                    <a href="#">Bülten Aboneliği</a>
+                    <a href="#">Ürün İadesi</a>
+                </div>
+            </div>
+            <hr class="line2">
+
+        <div class="footer3">
+            <div>
+                <p>Doğa Coffee © 2024 - Tüm Hakları Saklıdır.</p>
+            </div>
+            <div>
+                <img src="image/homepage/payment.png">
+            </div>
+        </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="homepage.js"></script>
+</body>
+</html>
